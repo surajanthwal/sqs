@@ -1,0 +1,19 @@
+{
+  "name": "sqs",
+  "version": "1.0.0",
+  "description": "a SQS based service for producing and consuming messages of any events in real time",
+  "main": "index.js",
+  "dependencies": {
+    "aws-sdk": "^2.22.0",
+    "body-parser": "~1.4.2",
+    "express": "~4.14.0",
+    "method-override": "~2.0.2",
+    "mongoose": "~4.8.2",
+    "sqs-consumer": "^3.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Suraj Anthwal",
+  "license": "ISC"
+}
